@@ -65,6 +65,12 @@ s3-to-rds-fallback
 5. successfully pushing data into RDS
 <img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/4aa2d13a-93ea-4253-b509-4e39bde4507f" />
 
-6. Automatically falling back to AWS Glue if the RDS database is unavailable or the push operation fails
+6. Data is successfully inserted in database
+
+<img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/7155b75c-64ae-4461-bae3-240ed54fd86f" />
+
+8. Automatically falling back to AWS Glue if the RDS database is unavailable or the push operation fails
    
    <img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/2f63daab-69a1-429e-a23e-d059c062f345" />
+
+
