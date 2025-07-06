@@ -47,7 +47,8 @@ docker run  \
 -e AWS_ACCESS_KEY_ID=---------------------- \
 -e AWS_SECRET_ACCESS_KEY=----------------------------- \
 -e AWS_DEFAULT_REGION=us-east-1 \
--e S3_BUCKET=python-project3 \
+-e S3_BUCKET=python-project3 \<img width="960" alt="Screenshot 2025-07-06 2248401" src="https://github.com/user-attachments/assets/7adca300-f3ac-4a8f-b06a-8e7e75a06a70" />
+
 -e CSV_KEY=students.csv \
 -e RDS_HOST=database-forbackup-project-1.ccv2yuoumhxt.us-east-1.rds.amazonaws.com \
 -e RDS_PORT=3306 \
@@ -61,4 +62,9 @@ docker run  \
 s3-to-rds-fallback
 
 
-5. 
+5. successfully pushing data into RDS
+<img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/4aa2d13a-93ea-4253-b509-4e39bde4507f" />
+
+6. Automatically falling back to AWS Glue if the RDS database is unavailable or the push operation fails
+   
+   <img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/2f63daab-69a1-429e-a23e-d059c062f345" />
